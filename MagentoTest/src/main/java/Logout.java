@@ -7,7 +7,7 @@ public class Logout {
 
 	WebDriver driver;
 	
-	By logout = By.id("Logout");
+	By logout = By.linkText("Log Out");
 			
 	public Logout(WebDriver driver)
 	{
